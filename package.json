@@ -1,0 +1,46 @@
+{
+  "name": "eshop",
+  "version": "1.0.0",
+  "description": "eshop app",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "nodemon src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GabeDeva",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "hpp": "^0.2.3",
+    "jest": "^27.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.7",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3",
+    "nodemailer-sendgrid": "^1.0.3",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.12",
+    "path": "^0.12.7",
+    "pm2": "^5.1.1",
+    "slugify": "^1.6.0",
+    "transport": "^0.0.3",
+    "xss-clean": "^0.1.1"
+  }
+}
